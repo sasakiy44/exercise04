@@ -2,6 +2,6 @@
 
 while read LINE
 do
-    echo "input: $LINE"
-    echo -n "output:"; echo "$LINE" | rev
+  echo "input: $LINE"
+  echo -n "output:"; echo "$LINE" | rev
 done

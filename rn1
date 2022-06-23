@@ -4,7 +4,7 @@ X=$RANDOM
 COUNT=0
 while [ $(expr $X % 5432) -gt 0 ]
 do
-    X=$RANDOM
-    COUNT=$(expr $COUNT + 1)
+  X=$RANDOM
+  COUNT=$(expr $COUNT + 1)
 done
 echo $COUNT:$X

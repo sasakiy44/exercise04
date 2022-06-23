@@ -4,15 +4,15 @@ read STR
 
 case $STR in
 yes|YES)
-    echo "強い肯定"
-    ;;
+  echo "強い肯定"
+  ;;
 y*|Y*)
-    echo "肯定"
-    ;;
+  echo "肯定"
+  ;;
 n*|N*)
-    echo "否定"
-    ;;
+  echo "否定"
+  ;;
 *)
-    echo "特になし(否定)"
-    ;;
+  echo "特になし(否定)"
+  ;;
 esac
